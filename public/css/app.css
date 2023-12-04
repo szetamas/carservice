@@ -1,0 +1,30 @@
+body {
+    background-color: #000000;
+    color: #00ff00;
+}
+
+#searchButton,
+#clearButton {
+    align-self: flex-end;
+}
+
+th,
+td {
+    background-color: #000000;
+    border-width: 2px;
+    border-color: #00ff00;
+    color: #00ff00;
+}
+
+.cars > td {
+    background-color: #222222;
+}
+
+.services > td {
+    background-color: #333333;
+}
+
+.clientName,
+.car_id {
+    cursor: pointer;
+}
